@@ -1,0 +1,85 @@
+.header{
+    &__container{
+        padding-block: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left{
+        display: flex;
+        gap: 10px;
+    }
+    &__button{
+        padding: 18px 19px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        background-color: #E7E9EB;
+        border-radius: 30px;
+        &--search{
+            padding: 18px 0 18px 19px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        background-color: #E7E9EB;
+        border-radius: 30px;
+    }
+    &__input{
+        padding: 18px;
+    }
+    &__icon{
+        height: 10px;
+        width: 18px;
+        &-search{
+            height: 17px;
+            width: 17px;
+        }
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+    &__list{
+        display: flex;
+        gap: 30px;
+    }
+    &__item{
+        &--select{
+            padding: 8px 14px;
+            background-color: #E7E9EB;
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        &-icon{
+            height: 18px;
+            width: 18px;
+        }
+        &--cart{
+            position: relative;
+        }
+        &--count{
+            position: absolute;
+            top: -5px;
+            right: -34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 28px;
+            width: 28px;
+            background-color: var(--color-text-secondary);
+            color: #fff;
+            border-radius: 50%;
+        }
+    }
+    &__select{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+}
